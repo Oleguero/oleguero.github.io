@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Insight 1: .NET framework"
+date:   2018-10-04 14:21:21 +0200
+category: statistics
+---
+<img src="/assets/dotnet.png" width="300"/>
+
+The .NET framework is a software development framework from Microsoft. It provides a controlled programming environment where software can be developed, installed and executed on Windows-based operating systems.
+
+The principal design features are:
+
+**Interoperability**: This allows for .NET-developed programs to access functionalities in programs developed outside .NET.
+
+**Common Runtime Engine**: Also known as the common language runtime, this allows programs developed in .NET to exhibit common behaviors in memory usage, exception handling and security.
+
+**Language Independence**: Common language infrastructure specifications (CLI) allow for the exchange of data types between two programs developed in different languages.
+
+**Base Class Library**: A library of code for most common functions--used by programmers to avoid repetitive rewriting of code.
+
+**Ease of Deployment**: There are tools to ensure the ease of installing programs without interfering with previously installed applications.
+
+**Security**: Programs developed in .NET are based on a common security model.
+
+Let's take an overview on two of most used programming language on top of _.NET framework_: *C#* and *VB*
+
+### C# vs visual basic
+
+
+
+
+_personal opinion_
+
+The framework carries out not only good things but the point that it works only
+on windows operating systems is a weak point. In a world where large part of real
+stable and most useful applications run on linux-like operating system, that's a point. Moreover, since the [12factor]: https://12factor.net/ "12factor" took the
+scene on DevOps (that implies the usage of containers such i.e. Docker that works
+  running linux syscalls), personally I would avoid to waste my time programming on top of it.

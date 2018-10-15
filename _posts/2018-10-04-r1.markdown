@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Research 1: Basic concepts about statistics"
+date:   2018-10-04 14:21:21 +0200
+category: statistics
+---
+![statistics][statistics]
+
+
+### Definition of statistics and basic definition
+As Merriam-Webster says, statistics is "a branch of mathematics dealing with the collection, analysis, interpretation, and presentation of masses of numerical data" [Merriam Website][merr-web].
+It's applications various from scientific, to social and industrial related problems.
+First of all let's take some confidence by defining basic notions and concepts:
+- statistical unit: a statistical unit is an element of a set of entities of objects being studied. The unit should be taken from a uniform distribution.
+Units are usually divided by two types:
+  - experimental unit: is typically thought of as one element of a set of objects and is the smallest object to which the treatment is applied.
+  - sampling unit: it is an element taken from a set called statistical population.
+- statistical population: is a set of similar objects (events or items) needed for a question or experiment. A subset of a population is called subpopulation and are those elements that shares a particular property.
+- attributes: an attribute of a variable (unit) is the aspect which is of interest to study.
+- observation: the unit of observation is the aspect we want to consider in our study. For example if we have a dataset containing people and we have the attribute "country", we can filter them by a specific country.
+- dataset: is a collection of data generally represented in a matrix for statistical
+purpose, that contains data taken for the study of interest. The column of the matrix
+are usually attributes and the rows are the unit.
+
+
+#### Scale measurement
+The measurement is carried out by the type of variable involved in the analysis,
+ different types are measured differently. Although procedures for measurement differ in many ways, they can be classified using a few fundamental categories. In a given category, all of the procedures share some properties that are important for you to know about. The categories are called "scale types," or just "scales".
+
+ **Nominal scales**
+ When measuring using a nominal scale, one simply names or categorizes responses. Gender, handedness, favorite color, and religion are examples of variables measured on a nominal scale
+
+ **Ordinal scales**
+ When measuring using an ordinal scale, you're for example tryin' to study the level
+ of satisfaction from your products of your customers, so you might ask them to
+  specify between 3 choices "dissatisfied", "normal" and "satisfied". those items are ordered from last to first
+   and that's what distinguish ordinal scale with nominal one. We can say that
+  ordinal scale is more meaningful than the nominal one because in the example above
+  such a scale permit us to understand if a customer is satisfied. On the other hand, ordinal scales fail to capture important information, in particular, the difference between two levels of an ordinal scale cannot be assumed to be the same as the difference between two other levels.
+
+ **Interval scales**
+Interval scales are numerical scales in which unlucky ordinal scales, intervals have the same interpretation.
+As an example consider the height, it is objective the difference between 180cm and
+190cm however interval scales have the issue to don't have a real zero value, what is zero height?
+Or what is 0 degrees Fahrenheit (definitely not the absence of temperature)?
+
+**Ratio scales**
+The ratio scale of measurement is the most informative scale. It is an interval scale with the additional property that its zero position indicates the absence of the quantity being measured.
+You can think of a ratio scale as the three earlier scales rolled up in one. Like a nominal scale, it provides a name or category for each object (the numbers serve as labels). Like an ordinal scale, the objects are ordered (in terms of the ordering of the numbers). Like an interval scale, the same difference at two places on the scale has the same meaning. And in addition, the same ratio at two places on the scale also carries the same meaning.
+Examples are the Kelvin scale, that unlike Fahrenheit has the zero value that
+represents the absolute zero or the amount of money you have in your pocket.
+
+
+
+
+[merr-web]: https://www.merriam-webster.com/dictionary/statistics
+
+[statistics]: /assets/statistics.jpg
