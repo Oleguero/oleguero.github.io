@@ -2,7 +2,9 @@
 layout: post
 title:  "Research 1: Basic concepts about statistics"
 date:   2018-10-04 14:21:21 +0200
-category: statistics
+categories:
+  - statistics
+  - research
 ---
 ![statistics][statistics]
 

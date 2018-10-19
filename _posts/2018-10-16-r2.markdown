@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Research 2: conditional frequency"
+date:   2018-10-16 14:21:21 +0200
+categories:
+  - statistics
+  - Research
+---
+
+What is conditional frequency? It is nothing more then a "fair" (in the mathematical sense)
+comparison between _categorical variables_. Let's take a practical example and
+consider 

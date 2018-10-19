@@ -2,7 +2,9 @@
 layout: post
 title:  "Insight 1: .NET framework"
 date:   2018-10-04 14:21:21 +0200
-category: statistics
+categories:
+  - statistics
+  - insight
 ---
 <img src="/assets/dotnet.png" width="300"/>
 
@@ -24,15 +26,19 @@ The principal design features are:
 
 Let's take an overview on two of most used programming language on top of _.NET framework_: *C#* and *VB*
 
-### C# vs visual basic
+### C# and Visual Basic
 
 
-
-
-_personal opinion_
-
-The framework carries out not only good things but the point that it works only
-on windows operating systems is a weak point. In a world where large part of real
-stable and most useful applications run on linux-like operating system, that's a point. Moreover, since the [12factor]: https://12factor.net/ "12factor" took the
+from a syntactical stand of point they're definitely unequal, it is possible to find plenty of examples of the differences
+at https://www.harding.edu/fmccown/vbnet_csharp_comparison.html but from practical
+point of view they goes on the same way compiling to the same intermediate language, both runs on .NET framework and because of that there aren't performance consideration to do. Those "features" allows programmatically to translate a
+program written in a language to other.
+Imho there aren't many consideration to do about paradigms they support since
+they don't have once fixed and are part of so called "multi-paradigm languages".
+The main reason of usage of C# and VB are that people are friendly with Windows
+thats the most used operating system and the IDE (Visual Studio) provided by microsoft to develop with their languages is intuitive for newbes.
+The framework carries out the point that it works only
+on windows operating systems and that's definitely bad. In a world where large part of real
+stable and most useful applications run on linux-like operating system, that's matter. Moreover, since the [12factor]: https://12factor.net/ "12factor" took the
 scene on DevOps (that implies the usage of containers such i.e. Docker that works
-  running linux syscalls), personally I would avoid to waste my time programming on top of it.
+  running linux syscalls), personally I would avoid to build my service on top of it.
