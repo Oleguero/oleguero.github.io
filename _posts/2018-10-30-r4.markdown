@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Research 4: Boole's inequality and calculation of union probability of n arbitrary events.
+
+Explain in a simple way the concept of sampling distribution of the mean."
+date:   2018-10-04 14:21:21 +0200
+categories:
+  - statistics
+  - research
+tag:
+  - research
+---
+
+#### Boole's inequality
+The Boole's inequality states that for any finite set of events, the probability
+that one event happens is at non-greater than the sum of probabilities of single
+events.
+Formally
+<iframe src="http://mathurl.com/ya58auj9"></iframe>
+
+Now we can analyse the probability of the union of two or more events.
+Let's see the two event case:
+<iframe src="http://mathurl.com/ybpna25f"></iframe>
+
+the substraction of the intersaction is due to the fact you have to delete the
+redundant elements as shown in figure below, it's clear that we have to delete 
+the gray part.
+![union-probability][union-probability]
+
+for three sets the things goes a little trickier and we get
+<iframe src="http://mathurl.com/y8joy2cp"></iframe>
+the point of the addiction of the intersaction between the three sets is that we substract all the intersaction pairing sets, so we substract also the elements that are
+in the intersaction that instead we want in, so we add them back.
+
+
+#### Sampling distribution
+The sampling distribution of the mean does not exist. It is the distribution of the means we would get if we took infinite numbers of samples of the same size as our sample. We do not know the mean or the spread of this distribution, but we can use information from our sample, and from the Central Limit Theorem to have a fair idea of what the sampling distribution of the mean looks and acts like. The mean of the sampling distribution is best estimated with the sample mean, and is a good estimate of the population mean. The spread of the sampling distribution is related to the spread of the sample, and the size of the sample. We estimate the spread of the sampling distribution to be the standard deviation of the population divided by the square-root of the sample size. But because the standard deviation of the population is unknown, we use the standard deviation of the sample instead.
+
+
+
+
+[union-probability]: /assets/union_probability.png

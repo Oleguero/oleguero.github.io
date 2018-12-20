@@ -1,0 +1,45 @@
+---
+layout: post
+title: " Research 3: Concept and definition of mean and the relationship with frequency. The Markov's inequality."
+date:   2018-10-16 14:21:21 +0200
+categories:
+  - statistics
+  - Research
+tag:
+  - research
+---
+
+The mean, also known as expected value is a central tendency of a probability 
+distribuon or of the random variable characterized by that distribution. Considering 
+distributions we have two cases: discrete and continous distribution. For the 
+first case che calculation is
+<iframe src="http://mathurl.com/y7kquucu"></iframe> 
+for the second case, the mean on continous distribution mean is given by 
+<iframe src="http://mathurl.com/y8x68p93"></iframe>
+The statistical mean has a wide range of applicability in various types 
+of experimentation. This type of calculation eliminates random errors and 
+helps to derive a more accurate result than a result derived from a single 
+experiment.
+
+There is just one problem that very high and low values in respect of the
+majority of values may alterate the expected value and hence it may be not
+accurate.
+
+
+We may want to calculate the mean considering the frequency that a certain 
+event may appear several times we can then manipulate the calculation for 
+the mean and use the frequency of values to calculate the mean and we get 
+<iframe src="http://mathurl.com/y7xsyh42"></iframe>
+
+#### Markov's inequality
+The Markov's inequality gives an upper bound for the probability that a 
+non-negative function of Random Variable is greater or equal to some costant.
+Formally we say
+<iframe src="http://mathurl.com/ya2zbdpc"></iframe>
+Let's see an example of that:
+suppose we sample the average of people in a certain amount of cities and we
+get that is 150k, we want the propability that sampling a city, it has 300k
+people. With a simple calculation we get that is
+<iframe src="http://mathurl.com/yb47p3x9"></iframe>
+
+So in this post we saw the concept and definition of mean, the relationship it has withe frequency and the Markov's inequality theorem and an example of that.

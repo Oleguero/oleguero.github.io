@@ -5,6 +5,8 @@ date:   2018-10-04 14:21:21 +0200
 categories:
   - statistics
   - insight
+tag:
+  - insight
 ---
 <img src="/assets/dotnet.png" width="300"/>
 

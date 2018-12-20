@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "insight 3: From the conditional probability to the Bayes Theorem."
+date:   2018-10-04 14:21:21 +0200
+categories:
+  - statistics
+  - research
+tag:
+  - insight
+---
+
+Probability of independent events
+
+In this case the probability of P (A ꓵ B) = P (A) * P (B)
+
+Probability of dependent events
+
+Next, can you think of examples of dependent events ?
+
+In the above example, let’s define event A as getting a Red marble from the jar. We then keep the marble out and then take another marble from the jar.
+
+Will the probabilities in the second case still be the same as that in the first case?
+
+Let’s see. So, for the first time there are 4/7 chances of getting a red marble. Let’s assume you got a red marble on the first attempt. Now, for second chance, to get a red marble we have 3/6 chances.
+
+If we didn’t get a red marble on the first attempt but a white marble instead. Then, there were 4/6 chances to get the red marble second time.
+
+Therefore the probability in the second case was dependent on what happened the first time.
+
+Conditional Probability
+
+Conditional probabilities arise naturally in the investigation of experiments where an outcome of a trial may affect the outcomes of the subsequent trials.
+
+We try to calculate the probability of the second event (event B) given that the first event (event A) has already happened. If the probability of the event changes when we take the first event into consideration, we can safely say that the probability of event B is dependent of the occurrence of event A.
+
+Example: Drawing a second ace from a deck given we got the first ace
+
+Here we can define, 2 events:
+
+    Event A is the probability of the event we’re trying to calculate.
+    Event B is the condition that we know or the event that has happened.
+
+<img src="https://demarcostats.files.wordpress.com/2018/12/image007.png" />
+
+We can write the conditional probability as P(A |B), the probability of the occurrence of event A given that B has already happened.
+Bayes Theorem
+
+The Bayes theorem describes the probability of an event based on the prior knowledge of the conditions that might be related to the event. If we know the conditional probability , we can use the bayes rule to find out the reverse probabilities .
+
+How can we do that?
+
+<img src="https://demarcostats.files.wordpress.com/2018/12/image007.png" />

@@ -1,0 +1,126 @@
+---
+layout: post
+title: "Central limit theorem - Most popolular distributions in statistics"
+
+date:   2018-10-04 14:21:21 +0200
+categories:
+  - statistics
+  - research
+tag:
+  - research
+---
+
+Central limit theorem, in probability theory, a theorem that establishes the normal distribution as the distribution to which the mean (average) of almost any set of independent and randomly generated variables rapidly converges. The central limit theorem explains why the normal distribution arises so commonly and why it is generally an excellent approximation for the mean of a collection of data (often with as few as 10 variables).
+
+The central limit theorem also plays an important role in modern industrial quality control. The first step in improving the quality of a product is often to identify the major factors that contribute to unwanted variations. Efforts are then made to control these factors. If these efforts succeed, then any residual variation will typically be caused by a large number of factors, acting roughly independently. In other words, the remaining small amounts of variation can be described by the central limit theorem, and the remaining variation will typically approximate a normal distribution. For this reason, the normal distribution is the basis for many key procedures in statistical quality control.
+
+How to calculate CLT?
+
+General Steps
+Step 1: Identify the parts of the problem. Your question should state:
+
+    the mean (average or μ)
+    the standard deviation (σ)
+    population size
+    sample size (n)
+    a number associated with “less than” ( xbar)
+
+Step 2: Draw a graph. Label the center with the mean. Shade the area roughly below xbar (i.e. the “less than” area). This step is optional, but it may help you see what you are looking for.
+
+This central limit theorem graph has a mean of 12 and and area below 26
+
+Step 3: Use the following formula to find the z-score. Plug in the numbers from step 1.
+
+CLTzvalue
+
+Click here if you want simple, step-by-step instructions for using this formula.
+If formulas confuse you, all this formula is asking you to do is:
+
+    Subtract the mean (μ in step 1) from the less than’ value (xbar in step 1). Set this number aside for a moment.
+    Divide the standard deviation (σ in step 1) by the square root of your sample (n in step 1). For example, if thirty six children are in your sample and your standard deviation is 2, then 3 / √ 36 = 0.5
+    Divide your result from step 1 by your result from step 2 (i.e. step 1/step 2)
+
+Step 4: Look up the z-score you calculated in step 4 in the z-table. If you don’t remember how to look up z-scores you can find an explanation in step 1 of this article on area to the right of a z-score in a normal distribution curve.
+
+Step 5: Add your z-score to 0.5. For example, if your z-score is 0.1554, then 0.5 + 0.1554 is 0.6554.
+
+Step 6:Convert the decimal in Step 6 to a percentage. In our example, 0.6554 = 65.54%.
+
+Sample problem: There are 250 dogs at a dog show who weigh an average of 12 pounds, with a standard deviation of 8 pounds. If 4 dogs are chosen at random, what is the probability they have an average weight of greater than 8 pounds and less than 25 pounds?
+
+Step 1:Identify the parts of the problem. Your question should state:
+
+    mean (average or μ) standard deviation (σ) population size
+    sample size (n)
+    number associated with “less than” 1
+    number associated with “greater than” 2
+
+Step 2: Draw a graph. Label the center with the mean. Shade the area between   1 and   2. This step is optional, but it may help you see what you are looking for.
+central limit theorem between
+<img src="../assets/betweenCLT.jpg"/>
+
+Step 3: Use the following formula to find the z-scores.
+CLTzvalue
+
+
+All this formula is asking you to do is:
+
+a) Subtract the mean (μ in Step 1) from the greater than value (Xbar in Step 1): 25 – 12 = 13.
+b) Divide the standard deviation (σ in Step 1) by the square root of your sample (n in Step 1): 8 / √ 4 = 4
+c) Divide your result from a by your result from b: 13 / 4 = 3.25
+
+Step 4 Use the formula from Step 3 to find the z-values. This time, use Xbar2 from Step 1 (8).
+
+a) Subtract the mean (μ in Step 1) from the greater than value (Xbar in Step 1): 8 – 12 = -4.
+b) Divide the standard deviation (σ in Step 1) by the square root of your sample (n in Step 1): 8 / √ 4 = 4
+c) Divide your result from a by your result from b: -4 / 4= -1
+
+Step 5: Look up the value you calculated in Step 3 in the z-table.
+
+Z value of 3.25 corresponds to .4994
+
+Step 6: Look up the value you calculated in Step 4 in the z-table.
+
+Z value of 1 corresponds to .3413
+
+Note that the bell curve is symmetrical, so if you want to look up a negative value like -1, then just look up the positive counterpart. The area will be the same.
+
+Step 7: Add Step 5 and 6 together:
+
+.4994 + .3413 = .8407
+
+Step 8: Convert the decimal in Step 7 to a percentage:
+
+.8407 = 84.07%
+
+That’s it!
+
+
+#### Most popular distributions in statistics
+the most popular discrete distributions are:
+
+1)    Boolean (Bernoulli) which takes value 1 with probability p and value 0 with probability q = 1 − p.
+
+2)    Binomial which describes the number of successes in a series of independent Yes/No experiments all with the same probability of success
+
+3)    Poisson which describes a very large number of individually unlikely events that happen in a certain time interval
+
+4)    Hyper geometric which describes the number of successes in the first m of a series of n consecutive Yes/No experiments, if the total number of successes is known. This distribution arises when there is no replacement.
+
+ 
+
+The most popular continuous distributions are:
+
+1)    Normal (or Gaussian) often used in the natural and social sciences to represent real-valued random variables
+
+2)    Chi squared which is the sum of the squares of n independent Gaussian random variables. It is a special case of the Gamma distribution
+
+3)    Gamma which describes the time until n consecutive rare random events occur in a process with no memory
+
+4)    Beta a family of two-parameter distributions with one mode, of which the uniform distribution is a special case, and which is useful in estimating success probabilities
+
+5)    T-Student useful for estimating unknown means of Gaussian populations
+
+6)    F-Distribution (Fisher) is a continuous probability distribution that arises frequently as the null distribution of a test statistic, most notably in the analysis of variance
+
+7)    Weibull of which the exponential distribution is a special case, is used to model the lifetime of technical devices and is used to describe the particle size distribution of particles generated by grinding, milling and crushing operations

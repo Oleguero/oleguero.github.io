@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "insight 4: Explain in a simple way the concept of sampling distribution"
+date:   2018-10-04 14:21:21 +0200
+categories:
+  - statistics
+  - research
+tag:
+  - insight
+---
+
+it is well known that algorithms for calculating centered statistical moments (like a mean) and  that utilize sum for the sake of execution speed (one-pass algorithms) lead to unacceptable numerical instability, due to the floating problem of computing, when the values are to different each other, causing an overflow on the digits that represents the numerical value.
+
+On the online computation for statistics (mean calculation) there are two famous algorithms; the Kahan summation and Neumaier variant.
+Here I will propose both algorithms in Python
+
+
+There is the first
+
+def kahan_sum(l):
+    summation = 0.0
+    c = 0.0
+    for i in l:
+        y = i - c
+        t = summation + y
+        c = (t - summation) - y
+        summation = t
+    return summation
+
+here is the neumaier variant 
+
+def neumaier_sum(collec):
+    add = collec[0]a
+    c = 0.0
+    for i in range(1, len(collec)):
+        temp = add + collec[i]
+        if abs(add) >= abs(collec[i]):
+            c += (add - temp) + collec[i]
+        else:
+            c += (collec[i] - temp) + add
+        add = temp
+    return (add + c)

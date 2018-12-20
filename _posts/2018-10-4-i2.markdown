@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "insight 2: Research the various approaches to define the concept of probability, the 'kolmogorov axioms' and the relationship with the notion of (relative) frequency."
+date:   2018-10-04 14:21:21 +0200
+categories:
+  - statistics
+  - research
+tag:
+  - insight
+---
+
+#### Various approaches to Probability
+
+Various approaches have been used to define the probability.
+
+Broadly they can be divided into two categories namely objective, and subjective.
+
+The objective approaches rely on the priori knowledge of the experiment.
+
+The subjective approaches also rely on the priori knowledge of the experiment but it is subjective to the individual dealing with the experiment. Some individuals may have full knowledge of the experiment and some may have partial knowledge.
+
+The following sections elaborate three approaches to probability namely classical, relative frequency, and axiomatic.
+
+#### Classical approach
+
+If an event A occurs in m times out of a total of n exhaustive, mutually exclusive and equally likely experiments, then the probability of the occurrence of event A is m/n .
+
+p(A) = m/n
+
+To apply this definition one must have prior knowledge on the sample space associated to the experiment and the sample space associated to the event.
+
+For example, what is the probability of getting a card of a particular color when one card is randomly picked from a pack of cards? Since the information on the color composition of cards is known (i.e. m and n are known to be 26 and 52 respectively), answer to this question is 0.5.
+
+#### Relative frequency approach
+
+Similarly, this definition can also be used in situations where the experiments can be conducted in controlled environments and the ratio of favorable outcomes to an event and the total repetitions of the experiment, gives the probability. This is known as the relative frequency and n must be large to get the realistic probability value associated to this event.
+
+<img src="https://nptel.ac.in/courses/105103027/module2/images/x021.JPG"/>
+
+This approach has certain disadvantages such as the probability is never irrational i.e. always it takes rational real numbers. This definition cannot be used in situation where the exhaustive number of experiments cannot be conducted and nothing can be said about whether they are equally likely even if it is possible to conduct the experiments.
+
+Examples are what is the probability of having certain amount of rainfall in a given month, what is the most severe wind load that is going to act on a tall structure.
+
+#### Axiomatic approach (Kolmogorov approach)
+
+An axiomatic approach is taken to define probability as a set function where the elements of the domain are the sets and the elements of range are real numbers. If event A is an element in the domain of this function, P(A) is the customary notation used to designate the corresponding element in the range.
+
+#### Probability Function
+
+A probability function p(A) is a function mapping the event space A of a random experiment into the interval [0,1] according to the following axioms;
+
+·          Axiom 1. For any event A, 0 ≤ P(A) ≤ 1
+
+·          Axiom 2. P(Ω) = 1
+
+·          Axiom 3. If A and B are any two mutually exclusive events then,
+
+                              P(A ∪ B)) = P(A) + P(B)
+
+As given in the third axiom the addition property of the probability can be extended to any number of events as long as the events are mutually exclusive. If the events are not mutually exclusive then;
+
+P(A ∪ B) = P(A) + P(B) – P(A∩B)
+
+P(A∩B) is null if both the events are mutually exclusive. 
