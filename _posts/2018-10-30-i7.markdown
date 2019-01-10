@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "insight 7: "Look at montecarlo techniques - Look at box-muller transformationa"
+title:  "insight 7: Look at montecarlo techniques - Look at box-muller transformationa"
 date:   2018-10-04 14:21:21 +0200
 categories:
   - statistics
