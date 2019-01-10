@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "insight 7: "Look at montecarlo techniques - Look at box-muller transformationa"
+date:   2018-10-04 14:21:21 +0200
+categories:
+  - statistics
+  - research
+tag:
+  - insight
+---
+
+
+When von Neumann called "di Monte Carlo" a mathematical procedure based on the use of random numbers meant, by that name, to allude to the capital of the Principality of Monaco. More specifically, he referred to the casino, gambling halls, roulette; these devices are devised specifically so that the fortune or the ruin of those who by mistake, boredom or other challenge themselves in the game, be decreed by the absolute randomness that manifests itself in the output of this or that number.
+
+The right definition is not yet agreed by everyone, but a generally satisfactory definition is as follows:
+
+The Monte Carlo method consists in looking for a problem, representing it as a parameter of a hypothetical population and in estimating this parameter by examining a sample of the population obtained through sequences of random numbers.
+
+For example suppose, suppose that U is the unknown value to be calculated and can be interpreted as the average value of a random variable X. The Monte Carlo method consists, in this case, in estimating U by calculating the average of a constructed sample determining N values ​​of X; this is achieved by a procedure involving the use of random numbers.
+
+So, Monte Carlo methods (or Monte Carlo experiments) are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. Their essential idea is using randomness to solve problems that might be deterministic in principle.
+
+In principle, Monte Carlo methods can be used to solve any problem having a probabilistic interpretation. By the law of large numbers, integrals described by the expected value of some random variable can be approximated by taking the empirical mean (a.k.a. the sample mean) of independent samples of the variable.
+
+Monte Carlo methods vary, but tend to follow a particular pattern:
+
+1.Define a domain of possible inputs
+
+2.Generate inputs randomly from a probability distribution over the domain
+
+3.Perform a deterministic computation on the inputs
+
+4.Aggregate the results
+
+Uses of Monte Carlo methods require large amounts of random numbers, and it was their use that spurred the development of pseudorandom number generators, which were far quicker to use than the tables of random numbers that had been previously used for statistical sampling.
+
+A Monte Carlo method, could say, is a technique that can be used to solve a mathematical or statistical problem, and a Monte Carlo simulation uses repeated sampling to obtain the statistical properties of some phenomenon (or behavior).
+
+Examples:
+
+·       Simulation: Drawing one pseudo-random uniform variable from the interval [0,1] can be used to simulate the tossing of a coin: If the value is less than or equal to 0.50 designate the outcome as heads, but if the value is greater than 0.50 designate the outcome as tails. This is a simulation, but not a Monte Carlo simulation.
+
+·       Monte Carlo method: Pouring out a box of coins on a table, and then computing the ratio of coins that land heads versus tails is a Monte Carlo method of determining the behavior of repeated coin tosses, but it is not a simulation.
+
+·       Monte Carlo simulation: Drawing a large number of pseudo-random uniform variables from the interval [0,1] at one time, or once at a large number of different times, and assigning values less than or equal to 0.50 as heads and greater than 0.50 as tails, is a Monte Carlo simulation of the behavior of repeatedly tossing a coin.

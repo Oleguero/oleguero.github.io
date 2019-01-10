@@ -13,15 +13,16 @@ tag:
  In simple linear regression, we predict scores on one variable from the scores on a second variable. The variable we are predicting is called the criterion variable and is referred to as Y. The variable we are basing our predictions on is called the predictor variable and is referred to as X. When there is only one predictor variable, the prediction method is called simple regression. In simple linear regression, the topic of this section, the predictions of Y when plotted as a function of X form a straight line.
 
 The example data below are plotted in figure. You can see that there is a positive relationship between X and Y. If you were going to predict Y from X, the higher the value of X, the higher your prediction of Y. 
+'''
 X 	    Y
 1.00 	1.00
 2.00 	2.00
 3.00 	1.30
 4.00 	3.75
 5.00 	2.25 
-
-<img src="http://onlinestatbook.com/2/regression/graphics/points_only.gif"/>
+'''
+<img src="../assets/points_only.png"/>
 
 Linear regression consists of finding the best-fitting straight line through the points. The best-fitting line is called a regression line. The black diagonal line in figure below is the regression line and consists of the predicted score on Y for each possible value of X. The vertical lines from the points to the regression line represent the errors of prediction. As you can see, the red point is very near the regression line; its error of prediction is small. By contrast, the yellow point is much higher than the regression line and therefore its error of prediction is large. 
 
-<img src="http://onlinestatbook.com/2/regression/graphics/reg_error.gif" />
+<img src="../assets/reg_error.png" />

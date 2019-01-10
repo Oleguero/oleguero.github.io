@@ -1,0 +1,82 @@
+---
+layout: post
+title:  "insight 5: Floating point issues and mean concept generalization"
+date:   2018-10-04 14:21:21 +0200
+categories:
+  - statistics
+  - research
+tag:
+  - insight
+---
+
+#### Floating point issues
+
+Every computer must respond to floating-point exceptions such as so called overflow.
+
+The aspects of floating-point arithmetic have a direct connection to scientific programming.
+
+Meanly we are speaking about rounding errors and then about rounding strategies for the basic operations of addition, subtraction, multiplication and division.
+
+Other aspects are involved on measuring rounding errors.
+
+The rounding errors are related to the fact that infinitely many real numbers cannot fit into a finite number of bits and so requires an approximate representation.
+
+There are infinitely many integers, in most programs the result of integer computations can be stored in n bits (typically n=32).
+
+At the same way, given any fixed number of bits, most calculations with real numbers will produce quantities that cannot be exactly represented using that many bits.
+
+Therefore the result of a floating-point calculation must often be rounded in order to fit back into its finite representation.
+
+This rounding error is the characteristic feature of floating-point computation.
+
+The term floating point refers to the fact that a number's radix point (decimal point, or, more commonly in computers, binary point) can "float"; that is, it can be placed anywhere relative to the significant digits of the number.
+
+If the decimal point is fixed, you can' represent them all, there can be so-called overflow or underflow; and for intermediate orders of magnitude, you lose significant digits.
+
+#### Mean
+
+One of the instructional difficulties with the mean is that it has so many faces.
+
+The historical study helps us to tease out some subtle aspects and define differences in the aspect of representativeness for instructional design.
+
+The historical examples until about the nineteenth century always had to do with finding a real value, for example the number of leaves on a branch or the diameter of the moon.
+
+In all the older examples, the mean was used as a means to an end.
+
+It took a long time before the mean was used as a representative or substitute value as an entity on its own.
+
+The Belgian statistician Quetelet (1796-1874), famous as the inventor of l'homme moyen, the average man, was one of the first scientists to use the mean as the representative value for an aspect of a population.
+
+This transition from the real value in astronomy to the representative value of Quetelet, which is a statistical construct in the social sciences, was an important conceptual change.
+
+Therefore, there are several layers of understanding the mean as a representative value.
+
+The following example from the interviews may illustrate this.
+
+So, the average can also have a different role, namely to find a number instead of a total.
+
+To clarify this I mention three components of the mean calculation:
+
+the number of values n, the sum or total Σ, and the mean μ.
+
+These components can have different roles and it is useful for instructional design to categorize the three possibilities n × μ = Σ, Σ /n= μ, and Σ / μ = n.
+
+1.   Estimation often has to do with finding the total number: n × μ = Σ. The fact that a kind of average value is used often stays implicit because the focus is on the total.
+
+2.   Fair share has to do with finding the mean: Σ /n= μ. This calculation answers the question of how much everyone would get after fair redistribution. The mean is also useful as a measure for fair comparison, for instance if we need to compensate for the number of values in different groups. We then use parts per million, a percentage, gross national product per head, et cetera.
+
+3.   The third combination of the three components is Σ/ μ = n. This is a variant of the first possibility and could also appear in estimation tasks. For instance, “How many 12-year-old students could go into the basket of a hot air balloon if normally eight adults are allowed?” The students first estimated adults' weights for a total weight Σ, and then their own average weight μ, and calculated the number n by doing Σ / μ = n.
+
+In history, we understand that the mean was used to find a total number and to approximate a real value; not until the nineteenth century was it used as a construct on its own, representing a specific aspect of a population.
+
+The arithmetic mean can also inform or model concepts outside of statistics. In a physical sense, the arithmetic mean can be thought of as a center of gravity. From the mean of a data set we can think of the average distance the data points are from the mean as standard deviation. The square of standard deviation (i.e. variance) is analogous to the moment of inertia in the physical model
+
+The arithmetic mean is one of many different kinds of averages used to describe the center or representative value of a data set.
+
+ 
+
+The arithmetic mean is “a mathematical construction that represents certain relationships in the data”. It is a mathematical abstraction that denotes the statistical representativeness of the data.
+
+One of those aspects was representative and is defined by the property, “The average value is representative of the values that were averaged”. Unlike the other two aspects, which have mathematical elements, this aspect is strictly statistical in character because it is presenting a representative sense of the data.
+
+The arithmetic mean is a tool that describes a data set and, as such, allows comparison between data sets. The statistical nature of the arithmetic mean provides a means for drawing conclusions about the population or process from which the data originated. The arithmetic mean is one of many averages that can alone, or in conjunction with other averages, be utilized to interpret the data. The statistical concept of the arithmetic mean utilizes a quantitative entity to represent, locate, qualify, describe, interpret, and/or signify a data set.
